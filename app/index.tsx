@@ -65,7 +65,9 @@ export default function Index() {
         <Link href="/home" style={styles.link}>
           <Text style={styles.linkText}>Home</Text>
         </Link>
-
+        <Link href="/flatlistexample" style={styles.link}>
+          <Text style={styles.linkText}>Ex</Text>
+        </Link>
 
       </View>
     </ScrollView>
