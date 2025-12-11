@@ -6,7 +6,7 @@ export default function Bmi() {
     const [height, setHeight] = useState('170');
     const [bmi, setBmi] = useState('0');
     const [description, setDescription] = useState('');
-    const [thisbmi, setThisbmi] = useState('');
+
     console.log("STATE : ", weight, height, bmi, description);
 
     const onPressButton = () => {
